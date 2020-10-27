@@ -19,7 +19,7 @@ class Library:
                 dict[i.subject]=1
         return dict
 
-    def checkBookCatergoryByPrice(self,id):
+    def checkBookCatergoryByPrice(self,id):  //participating in hacktoberfest 2020
         val = ""
         for i in self.bookList:
             if i.bookId == id:
